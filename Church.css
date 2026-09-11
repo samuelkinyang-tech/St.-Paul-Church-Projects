@@ -1,0 +1,875 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section {
+    background-image: url(./Assets/Church\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero>h1 {
+    font-size: 72px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero>h2 {
+    font-size: 29.6px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav img {
+    width: 176px;
+    height: 50px;
+}
+
+.navbtn {
+    background-color: black;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: "Google Sans Flex", sans-serif;
+    font-style: "source sans pro";
+    text-transform: uppercase;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-buttons .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: rgb(204, 204, 204);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    margin: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Google Sans Flex", sans-serif;
+    align-items: center;
+    flex-direction: column;
+}
+
+.church-icon {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    margin-top: 1rem;
+}
+
+.herobtn {
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: rgb(207, 74, 70);
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+}
+
+.about-section>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    background-color: rgb(255, 255, 255);
+    color: Black;
+}
+
+.card-box {
+    max-width: 360px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.iconfont-wrapper {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1.5rem;
+    color: rgb(207, 74, 70);
+}
+
+.iconfont-wrapper svg {
+    display: block;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    line-height: 1.7;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.welcome-section {
+    display: flex;
+    background-color: rgb(207, 74, 70);
+    color: white;
+    padding: 50px;
+    font-family: poppins sans-serif;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-icon {
+    border-left: 1px solid white;
+    padding-left: 1rem;
+}
+
+.welcomebtn {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    color: white;
+}
+
+.welcomebtn:hover {
+    background-color: white;
+    color: red;
+}
+
+.welcome-section-2 {
+    padding: 13.5rem 2rem;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    gap: 32px;
+}
+
+.welcome-white-section {
+    background-color: white;
+    margin-left: 85px;
+    width: 665px;
+    height: 222px;
+}
+
+.white-section>h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Google Sans Flex", sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.white-section-text {
+    padding-top: 10px;
+}
+
+.white-section-p-1,
+.white-section-p-3 {
+    color: rgb(136, 136, 136);
+    font-size: 17.6px;
+    font-weight: 400;
+    padding-left: 47.5px;
+}
+
+.white-section-calendar,
+.white-section-location-arrow,
+.white-section-map-marker {
+    color: rgb(207, 74, 70);
+}
+
+.white-section-p-2 {
+    color: rgb(207, 74, 70);
+    font-size: 17.6px;
+    font-weight: 400;
+    padding-left: 47.5px;
+}
+
+.welcome-red-section>div {
+    background-color: rgb(207, 74, 70);
+    color: white;
+    width: 436px;
+    height: 288px;
+    padding-top: 80px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.red-item-wrap>span {
+    display: flex;
+    flex-direction: column;
+}
+
+.red-count-num {
+    font-size: 40px;
+}
+
+.red-count-text {
+    padding-left: 30px;
+}
+
+.Our-Events-Section {
+    margin-top: 70px;
+    padding-top: 10px;
+}
+
+.Our-Events-Title {
+    display: flex;
+    justify-content: center;
+    color: rgb(51, 51, 51);
+    font-family: Poppins;
+    font-size: 35.2px;
+    font-weight: 700;
+}
+
+.Our-Events-Section>.Our-Events {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.Our-Events>h2 {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.Events-p {
+    margin-top: 15px;
+}
+
+.calendar,
+.location-arrow {
+    color: rgb(207, 74, 70);
+    width: 33px;
+}
+
+.events-card>h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.calendar-p,
+.location-p {
+    color: rgb(102, 108, 114);
+}
+
+.marker {
+    color: rgb(207, 74, 70);
+    width: 33px;
+}
+
+.marker-p {
+    color: rgb(207, 74, 70)
+}
+
+.calendar>svg,
+.marker>svg,
+.location-arrow>svg {
+    width: 15px;
+}
+
+.calendar,
+.calendar-p,
+.location-arrow,
+.location-p,
+.marker,
+.marker-p {
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.events-card {
+    width: 27%;
+    margin: 13px;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Lates-News-Section>.Lates-News {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 45px;
+}
+
+.Lates-News-header>h3 {
+    color: rgb(51, 51, 51);
+    margin-top: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Google Sans Flex", sans-serif;
+    font-style: normal;
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.Lates-News-header>h4 {
+    display: flex;
+    color: rgb(136, 136, 136);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+.Lates-card {
+    width: 27%;
+    margin: 13px;
+    line-height: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Lates-card>h2 {
+    color: rgb(207, 74, 70);
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.Lates-card>h3 {
+    font-size: 24px;
+    font-weight: 750;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.Lates-card>h3:hover {
+    color: rgb(207, 74, 70);
+    font-size: 24px;
+    font-weight: 750;
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.Lates-p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.goal {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.goal>h1 {
+    color: rgb(51, 51, 51);
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding-bottom: 20px;
+}
+
+.goal>h4 {
+    color: rgb(136, 136, 136);
+    font-size: 18px;
+}
+
+.goal-container {
+    display: flex;
+    justify-content: center;
+    font-family: "Google Sans Flex", sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.goal-container>p {
+    width: 26%;
+    font-size: 16px;
+    font-weight: 350;
+    letter-spacing: 0.5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.Our-Faith-Section {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Google Sans Flex", sans-serif;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 37.5px;
+    padding-bottom: 30px;
+}
+
+.faith-text {
+    margin-right: 20px;
+    font-weight: 350;
+}
+
+.faith-img {
+    margin-left: 20px;
+}
+
+.faith-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+}
+
+.faith-btn {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid rgb(207, 74, 70);
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 0.7rem 3rem;
+    margin-top: 32.7px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(207, 74, 70);
+    background-color: transparent;
+}
+
+.faith-btn:hover {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid rgb(207, 74, 70);
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 0.7rem 3rem;
+    margin-top: 32.7px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(207, 74, 70);
+}
+
+.faith-text {
+    width: 38rem;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.Our-Faith>h2 {
+    display: flex;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.Our-Faith>h4 {
+    display: flex;
+    color: rgb(136, 136, 136);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Our-Faith>img {
+    padding: 30px;
+    width: auto;
+}
+
+.testimony-section {
+    background-image: url(./Assets/Chruch\ 5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.testimony {
+    font-family: Poppins sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.person {
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.testimony-btn {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 0.8rem 1.7rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+}
+
+.testimony-btn:hover {
+    color: rgb(207, 74, 70);
+    background-color: transparent;
+    border-color: rgb(207, 74, 70);
+}
+
+.pastor-p {
+    display: flex;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    margin: 65px;
+    color: rgb(51, 51, 51);
+}
+
+.pastor-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 500;
+}
+
+.pastor-img>img {
+    width: 275px;
+    padding: 1rem;
+}
+
+.pastor-img>p {
+    text-align: center;
+    color: rgb(207, 74, 70);
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.donate-monthly-section {
+    background-color: rgb(239, 239, 239);
+    padding-bottom: 5.5rem;
+}
+
+.donate-monthly-h1 {
+    padding-top: 70px;
+    text-transform: uppercase;
+    font-family: "Google Sans Flex", sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.donate-monthly-p {
+    text-align: center;
+    color: rgb(136, 136, 136);
+    padding-bottom: 65px;
+}
+
+.donate-div {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.donate-Student>h3 {
+    background-color: rgb(41, 51, 58);
+    font-family: "Google Sans Flex", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30.4px;
+    padding-right: 20.8px;
+    padding-left: 20.8px;
+    padding-bottom: 30.4px;
+    width: 235px;
+}
+
+.donate-Student {
+    background-color: white;
+    text-align: center;
+}
+
+.donate-Working-People>h3 {
+    background-color: rgb(167, 61, 58);
+    font-family: "Google Sans Flex", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30.4px;
+    padding-right: 20.8px;
+    padding-left: 20.8px;
+    padding-bottom: 30.4px;
+    width: 235px;
+}
+
+.donate-Working-People {
+    background-color: white;
+    text-align: center;
+}
+
+.donate-Medium-Donator>h3 {
+    background-color: rgb(207, 74, 70);
+    font-family: "Google Sans Flex", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30.4px;
+    padding-right: 20.8px;
+    padding-left: 20.8px;
+    padding-bottom: 30.4px;
+    white-space: nowrap;
+    width: 235px;
+}
+
+.donate-Medium-Donator {
+    background-color: white;
+    text-align: center;
+}
+
+.donate-Business>h3 {
+    background-color: rgb(221, 96, 67);
+    font-family: "Google Sans Flex", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 30.4px;
+    padding-right: 20.8px;
+    padding-left: 20.8px;
+    padding-bottom: 30.4px;
+    width: 235px;
+}
+
+.donate-Business {
+    background-color: white;
+    text-align: center;
+}
+
+.donate-p {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+    text-align: center;
+    gap: 18px;
+    padding: 30px 0px;
+}
+
+.donate-price-container {
+    display: flex;
+}
+
+.donate-sign-month,
+.donate-num-month,
+.donate-p-month {
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.donate-sign-month {
+    color: rgb(207, 74, 70);
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+small {
+    padding-left: 0.4rem;
+}
+
+span .donate-num-month {
+    color: rgb(207, 74, 70);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.donate-p-month {
+    color: rgb(207, 74, 70);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.donationbtn {
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: "Google Sans Flex", sans-serif;
+    padding: 0.8rem 1.7rem;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+    background-color: transparent;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.donationbtn:hover {
+    color: white;
+    background-color: rgb(207, 74, 70);
+    border-color: rgb(207, 74, 70);
+}
+
+.footer {
+    background-color: rgb(27, 33, 37);
+    padding-top: 4rem;
+    padding-left: 4.5rem;
+    display: flex;
+    align-content: space-evenly;
+}
+
+.footer-contact-us>h3 {
+    color: white;
+    font-size: 24px;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 800;
+    padding-left: 90px;
+    padding-bottom: 2px;
+}
+
+.footer-useful-links>h3 {
+    color: white;
+    font-size: 24px;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 800;
+    padding-left: 167px;
+}
+
+.contact-us-links {
+    color: rgb(205, 205, 205);
+    padding-top: 35px;
+    padding-left: 90px;
+    padding-bottom: 80px;
+    font-size: 17.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+}
+
+.contact-us-icon {
+    color: rgb(207, 74, 70);
+}
+
+.contact-us-links>a {
+    color: rgb(205, 205, 205);
+    text-decoration: none;
+}
+
+.contact-us-links>a:hover {
+    color: rgb(207, 74, 70);
+}
+
+.useful-parent {
+    display: flex;
+}
+
+.useful-links-links-icon {
+    color: rgb(207, 74, 70);
+}
+
+.useful-parent>div {
+    margin-top: 2rem;
+}
+
+.useful-links-links-row1 {
+    padding-left: 110px;
+}
+
+.useful-links-links-row1>a,
+.useful-links-links-row2>a {
+    text-decoration: none;
+    color: rgb(205, 205, 205);
+    display: flex;
+    line-height: normal;
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 350;
+    height: 5.6vh;
+    padding-left: 50px;
+}
+
+.useful-links-links-row1>a:hover,
+.useful-links-links-row2>a:hover {
+    color: rgb(167, 61, 58);
+}
+
+.footer-copyright-section {
+    background-color: rgb(23, 28, 31);
+    padding: 35px;
+    text-align: center;
+}
+
+.footer-copyright-text-1,
+.footer-copyright-text-2,
+.footer-copyright-text-3 {
+    display: flex;
+    justify-content: center;
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    letter-spacing: 0.5px;
+}
+
+.footer-copyright-text-1 {
+    color: white;
+}
+
+.footer-copyright-text-2 {
+    color: rgb(207, 74, 70);
+}
+
+.footer-copyright-text-3 {
+    color: white;
+}
