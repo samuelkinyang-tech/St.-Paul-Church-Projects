@@ -120,6 +120,41 @@ li a {
     font-weight: 700;
 }
 
+/*......................................
+ Media query for Navbar and heropage
+ ................................... */
+
+@media screen and (max-width: 640px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        padding: 0.5rem;
+        position: fixed;
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+
+/*......................................
+ End of Media query for Navbar and heropage
+ ................................... */
+
 .about-section>div {
     display: flex;
     justify-content: space-around;
