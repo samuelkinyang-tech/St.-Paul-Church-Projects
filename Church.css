@@ -168,6 +168,19 @@ li a {
 }
 
 
+@media screen and (max-width: 425px) {
+    .hero>h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+
+    .hero>h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+}
 
 
 
