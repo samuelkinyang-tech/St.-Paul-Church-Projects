@@ -180,26 +180,48 @@ li a {
         flex-direction: column;
         font-size: 25px;
     }
+
+    .about-section>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+        padding: 4rem 2rem;
+        background-color: rgb(255, 255, 255);
+        color: Black;
+    }
+
 }
-
-
-
-
 
 /*......................................
  End of Media query for Navbar and heropage
  ................................... */
-
-.about-section>div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 2rem;
-    padding: 4rem 2rem;
-    background-color: rgb(255, 255, 255);
-    color: Black;
+    .about-section > div {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 4rem 2rem;
+        background-color: rgb(255, 255, 255);
+        color: Black;
+    }
+/*......................................
+ Media query for about-section
+ ................................... */
+@media screen and (max-width: 1076px) {
+    .about-section > .about {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 4rem 2rem;
+        background-color: rgb(255, 255, 255);
+        color: Black;
+    }
 }
 
+/*......................................
+ End of  Media query for about-sectionge
+ ................................... */
 .card-box {
     max-width: 360px;
     padding: 2rem;
