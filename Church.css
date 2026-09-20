@@ -625,6 +625,36 @@ li a {
     letter-spacing: 0.5px;
 }
 
+/*.................................................. 
+    Lates news section
+....................................................*/
+@media screen and (max-width: 1300px) {
+
+    .Lates-News-Section>.Lates-News {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Lates-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .Lates-card>img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+/*.................................................. 
+
+....................................................*/
+
 .goal {
     text-align: center;
     justify-content: center;
@@ -663,6 +693,39 @@ li a {
     margin-bottom: 10px;
     color: black;
 }
+
+/*.................................................. 
+    Lates news section
+....................................................*/
+@media screen and (max-width: 1300px) {
+    .goal-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 350;
+        letter-spacing: 0.5px;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .goal-container>p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 350;
+    letter-spacing: 0.5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+}
+
+/*.................................................. 
+
+....................................................*/
 
 .Our-Faith-Section {
     display: flex;
