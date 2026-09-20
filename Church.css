@@ -279,6 +279,39 @@ li a {
     color: red;
 }
 
+/*.................................................. 
+    Welcome section
+....................................................*/
+@media screen and (max-width: 940px) {
+
+    .welcome-section {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(207, 74, 70);
+        color: white;
+        padding: 50px;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .welcome-start>h1 {
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "Google Sans Flex", sans-serif;
+    }
+
+    .welcome-content {
+        border-left: none;
+        color: white;
+        padding-bottom: 7px;
+    }
+}
+
+/*.................................................. 
+
+....................................................*/
+
 .welcome-section-2 {
     padding: 13.5rem 2rem;
     background-color: rgb(239, 239, 239);
