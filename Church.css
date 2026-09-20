@@ -286,8 +286,8 @@ li a {
 
     .welcome-section {
         display: flex;
-        flex-direction: column;
         background-color: rgb(207, 74, 70);
+        flex-wrap: wrap;
         color: white;
         padding: 50px;
         justify-content: space-around;
@@ -301,10 +301,32 @@ li a {
         font-family: "Google Sans Flex", sans-serif;
     }
 
+    .welcome-content,
+    .welcome-contenth1 {
+        border-left: none;
+        color: white;
+        padding-bottom: 7px;
+    }
+
     .welcome-content {
         border-left: none;
         color: white;
         padding-bottom: 7px;
+    }
+
+    .welcome-contenth1 {
+        font-size: 24px;
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 600;
+    }
+
+    .welcomebtn {
+        border: 2px solid white;
+        background-color: transparent;
+        padding: 1rem 2rem;
+        margin-top: 55px;
+        border-radius: 3px;
+        color: white;
     }
 }
 
