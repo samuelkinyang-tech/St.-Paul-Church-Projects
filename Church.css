@@ -342,7 +342,7 @@ li a {
     width: 100%;
 }
 
-.welcome-white-section > div {
+.welcome-white-section>div {
     background-color: white;
     margin-left: 85px;
     width: 665px;
@@ -432,7 +432,7 @@ li a {
         width: 405px;
     }
 
-    .welcome-white-section >div {
+    .welcome-white-section>div {
         background-color: white;
         width: 341px;
         height: 222px;
@@ -821,6 +821,28 @@ li a {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        font-size: 24px;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 60px;
+    }
+
+    .faith-img {
+        margin-left: 0px;
+        width: 381px;
+    }
+
+    .faith-text {
+        width: 38rem;
+        font-size: 17px;
+        line-height: 150%;
+    }
+
+    .faith-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
         align-items: center;
         width: 100%;
         padding: 60px;
@@ -879,6 +901,19 @@ li a {
     Lates news section
 ....................................................*/
 @media screen and (max-width: 800px) {
+
+    .testimony-section {
+        background-image: url(./Assets/Chruch\ 5.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+    }
+
     .testimony {
         font-family: Poppins sans-serif;
         font-size: 24px;
@@ -891,6 +926,7 @@ li a {
         margin-top: 40px;
         margin-bottom: 0px;
     }
+
 }
 
 /*.................................................. 
@@ -902,6 +938,7 @@ li a {
     font-family: "Google Sans Flex", sans-serif;
     font-size: 20px;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     margin: 65px;
     color: rgb(51, 51, 51);
@@ -1219,6 +1256,81 @@ span .donate-num-month {
     color: rgb(167, 61, 58);
 }
 
+/*.................................................. 
+    Lates news section
+....................................................*/
+@media screen and (max-width: 800px) {
+    .footer {
+        background-color: rgb(27, 33, 37);
+        padding-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+        line-height: 35px;
+        padding: 0px;
+        padding-left: 1rem;
+        gap: 23px;
+    }
+
+    .footer-useful-links>h3 {
+        color: white;
+        font-size: 24px;
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 800;
+        padding-left: 0px;
+    }
+
+    .footer-contact-us>h3 {
+        color: white;
+        font-size: 24px;
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 800;
+        padding-left: 0px;
+        padding-bottom: 40px;
+    }
+
+    .contact-us-links {
+        color: rgb(205, 205, 205);
+        padding-top: 1px;
+        padding-left: 0px;
+        padding-bottom: 20px;
+        font-size: 17.6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+    }
+
+    .useful-parent {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 100px;
+        gap: 13px;
+        padding-bottom: 20px;
+    }
+
+    .useful-links-links-row1 {
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .useful-links-links-row1>a,
+    .useful-links-links-row2>a {
+        text-decoration: none;
+        color: rgb(205, 205, 205);
+        display: flex;
+        line-height: normal;
+        font-family: "Google Sans Flex", sans-serif;
+        font-weight: 350;
+        height: 5.6vh;
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+}
+
+/*.................................................. 
+
+....................................................*/
 .footer-copyright-section {
     background-color: rgb(23, 28, 31);
     padding: 35px;
